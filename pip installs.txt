@@ -1,0 +1,300 @@
+    copying src\lxml\isoschematron\resources\xsl\iso-schematron-xslt1\iso_schema
+tron_message.xsl -> build\lib.win32-3.5\lxml\isoschematron\resources\xsl\iso-sch
+ematron-xslt1
+    copying src\lxml\isoschematron\resources\xsl\iso-schematron-xslt1\iso_schema
+tron_skeleton_for_xslt1.xsl -> build\lib.win32-3.5\lxml\isoschematron\resources\
+xsl\iso-schematron-xslt1
+    copying src\lxml\isoschematron\resources\xsl\iso-schematron-xslt1\iso_svrl_f
+or_xslt1.xsl -> build\lib.win32-3.5\lxml\isoschematron\resources\xsl\iso-schemat
+ron-xslt1
+    copying src\lxml\isoschematron\resources\xsl\iso-schematron-xslt1\readme.txt
+ -> build\lib.win32-3.5\lxml\isoschematron\resources\xsl\iso-schematron-xslt1
+    running build_ext
+    building 'lxml.etree' extension
+    error: Unable to find vcvarsall.bat
+
+    ----------------------------------------
+Command ""c:\program files (x86)\python35-32\python.exe" -u -c "import setuptool
+s, tokenize;__file__='C:\\Users\\X131e\\AppData\\Local\\Temp\\pip-build-41afic8y
+\\lxml\\setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().
+replace('\r\n', '\n'), __file__, 'exec'))" install --record C:\Users\X131e\AppDa
+ta\Local\Temp\pip-0xh00ql7-record\install-record.txt --single-version-externally
+-managed --compile" failed with error code 1 in C:\Users\X131e\AppData\Local\Tem
+p\pip-build-41afic8y\lxml
+
+C:\Program Files (x86)\Python35-32\Scripts>pip install imapclient
+Collecting imapclient
+  Downloading IMAPClient-1.0.1-py2.py3-none-any.whl (68kB)
+    100% |################################| 69kB 650kB/s
+Collecting backports.ssl>=0.0.9 (from imapclient)
+  Downloading backports.ssl-0.0.9.tar.gz
+Collecting six (from imapclient)
+  Downloading six-1.10.0-py2.py3-none-any.whl
+Collecting pyopenssl>=0.15.1 (from imapclient)
+  Downloading pyOpenSSL-0.15.1-py2.py3-none-any.whl (102kB)
+    100% |################################| 106kB 585kB/s
+Collecting mock==1.3.0 (from imapclient)
+  Downloading mock-1.3.0-py2.py3-none-any.whl (56kB)
+    100% |################################| 57kB 1.1MB/s
+Collecting cryptography>=0.7 (from pyopenssl>=0.15.1->imapclient)
+  Downloading cryptography-1.2.2-cp35-none-win32.whl (886kB)
+    100% |################################| 888kB 143kB/s
+Collecting pbr>=0.11 (from mock==1.3.0->imapclient)
+  Downloading pbr-1.8.1-py2.py3-none-any.whl (89kB)
+    100% |################################| 90kB 481kB/s
+Collecting cffi>=1.4.1 (from cryptography>=0.7->pyopenssl>=0.15.1->imapclient)
+  Downloading cffi-1.5.2-cp35-none-win32.whl (142kB)
+    100% |################################| 143kB 476kB/s
+Collecting pyasn1>=0.1.8 (from cryptography>=0.7->pyopenssl>=0.15.1->imapclient)
+
+  Downloading pyasn1-0.1.9-py2.py3-none-any.whl
+Requirement already satisfied (use --upgrade to upgrade): setuptools>=1.0 in c:\
+program files (x86)\python35-32\lib\site-packages (from cryptography>=0.7->pyope
+nssl>=0.15.1->imapclient)
+Collecting idna>=2.0 (from cryptography>=0.7->pyopenssl>=0.15.1->imapclient)
+  Downloading idna-2.0-py2.py3-none-any.whl (61kB)
+    100% |################################| 61kB 493kB/s
+Collecting pycparser (from cffi>=1.4.1->cryptography>=0.7->pyopenssl>=0.15.1->im
+apclient)
+  Downloading pycparser-2.14.tar.gz (223kB)
+    100% |################################| 225kB 298kB/s
+Installing collected packages: backports.ssl, six, pycparser, cffi, pyasn1, idna
+, cryptography, pyopenssl, pbr, mock, imapclient
+  Running setup.py install for backports.ssl ... done
+  Running setup.py install for pycparser ... done
+Successfully installed backports.ssl-0.0.9 cffi-1.5.2 cryptography-1.2.2 idna-2.
+0 imapclient-1.0.1 mock-1.3.0 pbr-1.8.1 pyasn1-0.1.9 pycparser-2.14 pyopenssl-0.
+15.1 six-1.10.0
+
+C:\Program Files (x86)\Python35-32\Scripts>pip install pyzmail
+Collecting pyzmail
+  Downloading pyzmail-1.0.3.tar.gz (57kB)
+    100% |################################| 61kB 787kB/s
+Collecting distribute (from pyzmail)
+  Downloading distribute-0.7.3.zip (145kB)
+    100% |################################| 147kB 413kB/s
+Requirement already satisfied (use --upgrade to upgrade): setuptools>=0.7 in c:\
+program files (x86)\python35-32\lib\site-packages (from distribute->pyzmail)
+Installing collected packages: distribute, pyzmail
+  Running setup.py install for distribute ... done
+  Running setup.py install for pyzmail ... done
+Successfully installed distribute-0.7.3 pyzmail-1.0.3
+
+C:\Program Files (x86)\Python35-32\Scripts>pip install imapclient
+Requirement already satisfied (use --upgrade to upgrade): imapclient in c:\progr
+am files (x86)\python35-32\lib\site-packages
+Requirement already satisfied (use --upgrade to upgrade): pyopenssl>=0.15.1 in c
+:\program files (x86)\python35-32\lib\site-packages (from imapclient)
+Requirement already satisfied (use --upgrade to upgrade): mock==1.3.0 in c:\prog
+ram files (x86)\python35-32\lib\site-packages (from imapclient)
+Requirement already satisfied (use --upgrade to upgrade): six in c:\program file
+s (x86)\python35-32\lib\site-packages (from imapclient)
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl>=0.0.9 i
+n c:\program files (x86)\python35-32\lib\site-packages (from imapclient)
+Requirement already satisfied (use --upgrade to upgrade): cryptography>=0.7 in c
+:\program files (x86)\python35-32\lib\site-packages (from pyopenssl>=0.15.1->ima
+pclient)
+Requirement already satisfied (use --upgrade to upgrade): pbr>=0.11 in c:\progra
+m files (x86)\python35-32\lib\site-packages (from mock==1.3.0->imapclient)
+Requirement already satisfied (use --upgrade to upgrade): idna>=2.0 in c:\progra
+m files (x86)\python35-32\lib\site-packages (from cryptography>=0.7->pyopenssl>=
+0.15.1->imapclient)
+Requirement already satisfied (use --upgrade to upgrade): pyasn1>=0.1.8 in c:\pr
+ogram files (x86)\python35-32\lib\site-packages (from cryptography>=0.7->pyopens
+sl>=0.15.1->imapclient)
+Requirement already satisfied (use --upgrade to upgrade): cffi>=1.4.1 in c:\prog
+ram files (x86)\python35-32\lib\site-packages (from cryptography>=0.7->pyopenssl
+>=0.15.1->imapclient)
+Requirement already satisfied (use --upgrade to upgrade): setuptools>=1.0 in c:\
+program files (x86)\python35-32\lib\site-packages (from cryptography>=0.7->pyope
+nssl>=0.15.1->imapclient)
+Requirement already satisfied (use --upgrade to upgrade): pycparser in c:\progra
+m files (x86)\python35-32\lib\site-packages (from cffi>=1.4.1->cryptography>=0.7
+->pyopenssl>=0.15.1->imapclient)
+
+C:\Program Files (x86)\Python35-32\Scripts>pip install twilio
+Collecting twilio
+  Downloading twilio-5.3.0.tar.gz (193kB)
+    100% |################################| 196kB 487kB/s
+Collecting httplib2>=0.7 (from twilio)
+  Downloading httplib2-0.9.2.tar.gz (205kB)
+    100% |################################| 208kB 386kB/s
+Requirement already satisfied (use --upgrade to upgrade): six in c:\program file
+s (x86)\python35-32\lib\site-packages (from twilio)
+Collecting pytz (from twilio)
+  Downloading pytz-2015.7-py2.py3-none-any.whl (476kB)
+    100% |################################| 479kB 271kB/s
+Collecting pysocks (from twilio)
+  Downloading PySocks-1.5.6.tar.gz
+Installing collected packages: httplib2, pytz, pysocks, twilio
+  Running setup.py install for httplib2 ... done
+  Running setup.py install for pysocks ... done
+  Running setup.py install for twilio ... done
+Successfully installed httplib2-0.9.2 pysocks-1.5.6 pytz-2015.7 twilio-5.3.0
+
+C:\Program Files (x86)\Python35-32\Scripts>pip install pillow
+Collecting pillow
+  Using cached Pillow-3.1.1-cp35-none-win32.whl
+Installing collected packages: pillow
+Successfully installed pillow-3.1.1
+
+C:\Program Files (x86)\Python35-32\Scripts>pip install pyautogui
+Collecting pyautogui
+  Using cached PyAutoGUI-0.9.33.zip
+Collecting pymsgbox (from pyautogui)
+  Using cached PyMsgBox-1.0.3.zip
+Collecting PyTweening>=1.0.1 (from pyautogui)
+  Using cached PyTweening-1.0.3.zip
+Requirement already satisfied (use --upgrade to upgrade): Pillow in c:\program f
+iles (x86)\python35-32\lib\site-packages (from pyautogui)
+Collecting pyscreeze (from pyautogui)
+  Using cached PyScreeze-0.1.8.zip
+Installing collected packages: pymsgbox, PyTweening, pyscreeze, pyautogui
+  Running setup.py install for pymsgbox ... done
+  Running setup.py install for PyTweening ... done
+  Running setup.py install for pyscreeze ... done
+  Running setup.py install for pyautogui ... done
+Successfully installed PyTweening-1.0.3 pyautogui-0.9.33 pymsgbox-1.0.3 pyscreez
+e-0.1.8
+
+C:\Program Files (x86)\Python35-32\Scripts>pip install python-docx
+Collecting python-docx
+  Using cached python-docx-0.8.5.tar.gz
+Collecting lxml>=2.3.2 (from python-docx)
+  Using cached lxml-3.5.0.tar.gz
+Installing collected packages: lxml, python-docx
+  Running setup.py install for lxml ... error
+    Complete output from command "c:\program files (x86)\python35-32\python.exe"
+ -u -c "import setuptools, tokenize;__file__='C:\\Users\\X131e\\AppData\\Local\\
+Temp\\pip-build-igmslmv4\\lxml\\setup.py';exec(compile(getattr(tokenize, 'open',
+ open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --rec
+ord C:\Users\X131e\AppData\Local\Temp\pip-j9ryzlr5-record\install-record.txt --s
+ingle-version-externally-managed --compile:
+    Building lxml version 3.5.0.
+    Building without Cython.
+    ERROR: b"'xslt-config' is not recognized as an internal or external command,
+\r\noperable program or batch file.\r\n"
+    ** make sure the development packages of libxml2 and libxslt are installed *
+*
+
+    Using build configuration of libxslt
+    running install
+    running build
+    running build_py
+    creating build
+    creating build\lib.win32-3.5
+    creating build\lib.win32-3.5\lxml
+    copying src\lxml\builder.py -> build\lib.win32-3.5\lxml
+    copying src\lxml\cssselect.py -> build\lib.win32-3.5\lxml
+    copying src\lxml\doctestcompare.py -> build\lib.win32-3.5\lxml
+    copying src\lxml\ElementInclude.py -> build\lib.win32-3.5\lxml
+    copying src\lxml\pyclasslookup.py -> build\lib.win32-3.5\lxml
+    copying src\lxml\sax.py -> build\lib.win32-3.5\lxml
+    copying src\lxml\usedoctest.py -> build\lib.win32-3.5\lxml
+    copying src\lxml\_elementpath.py -> build\lib.win32-3.5\lxml
+    copying src\lxml\__init__.py -> build\lib.win32-3.5\lxml
+    creating build\lib.win32-3.5\lxml\includes
+    copying src\lxml\includes\__init__.py -> build\lib.win32-3.5\lxml\includes
+    creating build\lib.win32-3.5\lxml\html
+    copying src\lxml\html\builder.py -> build\lib.win32-3.5\lxml\html
+    copying src\lxml\html\clean.py -> build\lib.win32-3.5\lxml\html
+    copying src\lxml\html\defs.py -> build\lib.win32-3.5\lxml\html
+    copying src\lxml\html\diff.py -> build\lib.win32-3.5\lxml\html
+    copying src\lxml\html\ElementSoup.py -> build\lib.win32-3.5\lxml\html
+    copying src\lxml\html\formfill.py -> build\lib.win32-3.5\lxml\html
+    copying src\lxml\html\html5parser.py -> build\lib.win32-3.5\lxml\html
+    copying src\lxml\html\soupparser.py -> build\lib.win32-3.5\lxml\html
+    copying src\lxml\html\usedoctest.py -> build\lib.win32-3.5\lxml\html
+    copying src\lxml\html\_diffcommand.py -> build\lib.win32-3.5\lxml\html
+    copying src\lxml\html\_html5builder.py -> build\lib.win32-3.5\lxml\html
+    copying src\lxml\html\_setmixin.py -> build\lib.win32-3.5\lxml\html
+    copying src\lxml\html\__init__.py -> build\lib.win32-3.5\lxml\html
+    creating build\lib.win32-3.5\lxml\isoschematron
+    copying src\lxml\isoschematron\__init__.py -> build\lib.win32-3.5\lxml\isosc
+hematron
+    copying src\lxml\lxml.etree.h -> build\lib.win32-3.5\lxml
+    copying src\lxml\lxml.etree_api.h -> build\lib.win32-3.5\lxml
+    copying src\lxml\includes\c14n.pxd -> build\lib.win32-3.5\lxml\includes
+    copying src\lxml\includes\config.pxd -> build\lib.win32-3.5\lxml\includes
+    copying src\lxml\includes\dtdvalid.pxd -> build\lib.win32-3.5\lxml\includes
+    copying src\lxml\includes\etreepublic.pxd -> build\lib.win32-3.5\lxml\includ
+es
+    copying src\lxml\includes\htmlparser.pxd -> build\lib.win32-3.5\lxml\include
+s
+    copying src\lxml\includes\relaxng.pxd -> build\lib.win32-3.5\lxml\includes
+    copying src\lxml\includes\schematron.pxd -> build\lib.win32-3.5\lxml\include
+s
+    copying src\lxml\includes\tree.pxd -> build\lib.win32-3.5\lxml\includes
+    copying src\lxml\includes\uri.pxd -> build\lib.win32-3.5\lxml\includes
+    copying src\lxml\includes\xinclude.pxd -> build\lib.win32-3.5\lxml\includes
+    copying src\lxml\includes\xmlerror.pxd -> build\lib.win32-3.5\lxml\includes
+    copying src\lxml\includes\xmlparser.pxd -> build\lib.win32-3.5\lxml\includes
+
+    copying src\lxml\includes\xmlschema.pxd -> build\lib.win32-3.5\lxml\includes
+
+    copying src\lxml\includes\xpath.pxd -> build\lib.win32-3.5\lxml\includes
+    copying src\lxml\includes\xslt.pxd -> build\lib.win32-3.5\lxml\includes
+    copying src\lxml\includes\etree_defs.h -> build\lib.win32-3.5\lxml\includes
+    copying src\lxml\includes\lxml-version.h -> build\lib.win32-3.5\lxml\include
+s
+    creating build\lib.win32-3.5\lxml\isoschematron\resources
+    creating build\lib.win32-3.5\lxml\isoschematron\resources\rng
+    copying src\lxml\isoschematron\resources\rng\iso-schematron.rng -> build\lib
+.win32-3.5\lxml\isoschematron\resources\rng
+    creating build\lib.win32-3.5\lxml\isoschematron\resources\xsl
+    copying src\lxml\isoschematron\resources\xsl\RNG2Schtrn.xsl -> build\lib.win
+32-3.5\lxml\isoschematron\resources\xsl
+    copying src\lxml\isoschematron\resources\xsl\XSD2Schtrn.xsl -> build\lib.win
+32-3.5\lxml\isoschematron\resources\xsl
+    creating build\lib.win32-3.5\lxml\isoschematron\resources\xsl\iso-schematron
+-xslt1
+    copying src\lxml\isoschematron\resources\xsl\iso-schematron-xslt1\iso_abstra
+ct_expand.xsl -> build\lib.win32-3.5\lxml\isoschematron\resources\xsl\iso-schema
+tron-xslt1
+    copying src\lxml\isoschematron\resources\xsl\iso-schematron-xslt1\iso_dsdl_i
+nclude.xsl -> build\lib.win32-3.5\lxml\isoschematron\resources\xsl\iso-schematro
+n-xslt1
+    copying src\lxml\isoschematron\resources\xsl\iso-schematron-xslt1\iso_schema
+tron_message.xsl -> build\lib.win32-3.5\lxml\isoschematron\resources\xsl\iso-sch
+ematron-xslt1
+    copying src\lxml\isoschematron\resources\xsl\iso-schematron-xslt1\iso_schema
+tron_skeleton_for_xslt1.xsl -> build\lib.win32-3.5\lxml\isoschematron\resources\
+xsl\iso-schematron-xslt1
+    copying src\lxml\isoschematron\resources\xsl\iso-schematron-xslt1\iso_svrl_f
+or_xslt1.xsl -> build\lib.win32-3.5\lxml\isoschematron\resources\xsl\iso-schemat
+ron-xslt1
+    copying src\lxml\isoschematron\resources\xsl\iso-schematron-xslt1\readme.txt
+ -> build\lib.win32-3.5\lxml\isoschematron\resources\xsl\iso-schematron-xslt1
+    running build_ext
+    building 'lxml.etree' extension
+    error: Unable to find vcvarsall.bat
+
+    ----------------------------------------
+Command ""c:\program files (x86)\python35-32\python.exe" -u -c "import setuptool
+s, tokenize;__file__='C:\\Users\\X131e\\AppData\\Local\\Temp\\pip-build-igmslmv4
+\\lxml\\setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().
+replace('\r\n', '\n'), __file__, 'exec'))" install --record C:\Users\X131e\AppDa
+ta\Local\Temp\pip-j9ryzlr5-record\install-record.txt --single-version-externally
+-managed --compile" failed with error code 1 in C:\Users\X131e\AppData\Local\Tem
+p\pip-build-igmslmv4\lxml
+
+C:\Program Files (x86)\Python35-32\Scripts>pip install beautifulsoup4
+Requirement already satisfied (use --upgrade to upgrade): beautifulsoup4 in c:\p
+rogram files (x86)\python35-32\lib\site-packages
+
+C:\Program Files (x86)\Python35-32\Scripts>pip install pillow
+Requirement already satisfied (use --upgrade to upgrade): pillow in c:\program f
+iles (x86)\python35-32\lib\site-packages
+
+C:\Program Files (x86)\Python35-32\Scripts>pip install --upgrade pillow
+Requirement already up-to-date: pillow in c:\program files (x86)\python35-32\lib
+\site-packages
+
+C:\Program Files (x86)\Python35-32\Scripts>pip install pyperclip
+Collecting pyperclip
+  Downloading pyperclip-1.5.26.zip
+Installing collected packages: pyperclip
+  Running setup.py install for pyperclip ... done
+Successfully installed pyperclip-1.5.26
+
+C:\Program Files (x86)\Python35-32\Scripts>
