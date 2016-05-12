@@ -1,0 +1,19 @@
+2016-04-17 15:19:48,743 - CRITICAL - Return value is 120
+2016-04-17 15:25:58,031 - DEBUG - Start of program
+2016-04-17 15:25:58,031 - INFO - Start of factorial (5)
+2016-04-17 15:25:58,032 - WARNING - i is 1, total is 1
+2016-04-17 15:25:58,032 - WARNING - i is 2, total is 2
+2016-04-17 15:25:58,032 - WARNING - i is 3, total is 6
+2016-04-17 15:25:58,033 - WARNING - i is 4, total is 24
+2016-04-17 15:25:58,033 - WARNING - i is 5, total is 120
+2016-04-17 15:25:58,034 - CRITICAL - Return value is 120
+2016-04-17 15:25:58,048 - DEBUG - End of program
+2016-04-17 15:26:29,788 - DEBUG - Start of program
+2016-04-17 15:26:29,789 - INFO - Start of factorial (5)
+2016-04-17 15:26:29,789 - WARNING - i is 1, total is 1
+2016-04-17 15:26:29,789 - WARNING - i is 2, total is 2
+2016-04-17 15:26:29,790 - WARNING - i is 3, total is 6
+2016-04-17 15:26:29,790 - WARNING - i is 4, total is 24
+2016-04-17 15:26:29,791 - WARNING - i is 5, total is 120
+2016-04-17 15:26:29,791 - CRITICAL - Return value is 120
+2016-04-17 15:26:29,811 - DEBUG - End of program
